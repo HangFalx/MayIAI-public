@@ -1,0 +1,22 @@
+{
+  "name": "mayiai-public",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hungarian AI receptionist for private clinics: LLM tool calling over a simulated clinic calendar, with an evaluation harness (simplified university version)",
+  "scripts": {
+    "chat": "tsx src/chat.ts",
+    "eval": "tsx src/eval/runEval.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
